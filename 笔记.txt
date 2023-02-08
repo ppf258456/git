@@ -73,7 +73,12 @@
         git remote add origin https://github.com/xxxx/xxxx.git
             git remote add <remote name> <url> 
         git branch -M main
+        修改分支的名称为main 
         git push -u origin main
+        git push 将代码上传至服务器
+
+
+        将本地库上传至gitee
 
 
 
