@@ -79,17 +79,5 @@
 
 
         将本地库上传至gitee
-
-
-
-
-
-    合并发布
-    
-    修改结束
-    再次修改
-    hahaha
-    多次修改
-    111
-    22222
-    3333
+        git remote add gitee https://gitee.com/pan-pengfei/git.git
+        git push -u gitee main
