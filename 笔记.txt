@@ -81,3 +81,15 @@
         将本地库上传至gitee
         git remote add gitee https://gitee.com/pan-pengfei/git.git
         git push -u gitee main
+
+
+    远程库操作命令
+        git remote 
+            显示当前连接的所有远程库
+        git remote add <远程库名> <url>
+            关联远程仓库
+        git remote remove <远程库名>
+            删除远程库
+        git push -u <远程库名> <分支名>
+            向远程库推送代码，并和当前分支关联
+        
