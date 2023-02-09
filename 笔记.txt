@@ -115,4 +115,10 @@
 
 
         
-        
+        git log 
+            提交记录
+        git switch  commit.id --detach
+            将头指针指向该id 并且只能看到当前id所拥有的代码
+        git switch -c <分支名> commit.id
+            使头指针指向该id所在位置，并且创建新分支对其进行相关操作
+                   
