@@ -113,6 +113,20 @@
             
             可以为提交记录设置标签，设置标签以后，可以通过边钱快速的识别出不同的开发节点
 
+            git tag 
+                查看标签
+            git tag  <xxx>
+                为当前状态打上 xxx 标签
+            git tag <xxxx> commit.id 
+                为commit.id  打上xxxx 标签
+            git push <远程仓库名> <标签名>
+                将该标签提交到远程仓库
+            git push <远程仓库名> --tags
+                将所有标签提交到远程仓库
+            git tag -d 标签名
+                删除标签
+            git push <远程仓库名> --delete 标签名 
+                删除远程标签
 
 
         
